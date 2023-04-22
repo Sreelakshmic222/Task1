@@ -1,0 +1,19 @@
+body {
+   background:url({% static "static/images/log.jpg" %}) 100% 0 no-repeat fixed;
+  animation-name: myanimation;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 50% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
